@@ -28,12 +28,21 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="face.smiling" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ghx-sP-MFT">
+                                <rect key="frame" x="107" y="348.5" width="200" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="AdO-OA-wfP"/>
+                                    <constraint firstAttribute="width" constant="200" id="vhT-F2-2wO"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5jg-Nc-spB" firstAttribute="top" secondItem="jY5-vt-7q8" secondAttribute="bottom" constant="20" id="2N2-gn-4pW"/>
+                            <constraint firstItem="ghx-sP-MFT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3xf-BA-MqU"/>
                             <constraint firstItem="jY5-vt-7q8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ikt-PS-B0t"/>
+                            <constraint firstItem="ghx-sP-MFT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNv-MT-Cqu"/>
                             <constraint firstItem="jY5-vt-7q8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="irC-k8-BeZ"/>
                             <constraint firstItem="5jg-Nc-spB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xk8-2y-DkG"/>
                         </constraints>
@@ -45,6 +54,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="face.smiling" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
